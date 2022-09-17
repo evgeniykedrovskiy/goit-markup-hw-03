@@ -20,112 +20,138 @@
 
   <body>
     <header class="page-header">
-      <div class="conteiner">
-        <nav>
+      <div class="container main-nav">
+        <nav class="main-nav">
           <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
-          <ul class="site-nav">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="header-list">
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
     <main>
       <section class="hero section">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Ефективні рішення для<br />
+            вашого бізнесу
+          </h1>
+          <button type="button" class="button">Замовити послугу</button>
+        </div>
       </section>
       <section class="section">
-        <h2 class="section-title">Особливості</h2>
-        <ul class="feature-list">
-          <li>
-            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">ПЛАНУВАННЯ</h3>
-            <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
-          </li>
-          <li>
-            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <!-- Приховати заголовок -->
+          <h2>Особливості</h2>
+          <ul class="feature-list">
+            <li>
+              <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="feature-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="feature-text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="feature-title">ПЛАНУВАННЯ</h3>
+              <p class="feature-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="feature-text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="section">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/box1.jpg"
-              alt="Чоловік пише код на компьютері та планшеті"
-              width="370"
-            />
-          </li>
-          <li>
-            <img src="./images/box2.jpg" alt="Дівчина працюе за ноутбуком" width="370" />
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="Дизайнер створюе картинку на планшеті" width="370" />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/box1.jpg"
+                alt="Чоловік пише код на компьютері та планшеті"
+                width="370"
+              />
+            </li>
+            <li>
+              <img src="./images/box2.jpg" alt="Дівчина працюе за ноутбуком" width="370" />
+            </li>
+            <li>
+              <img
+                src="./images/img3.jpg"
+                alt="Дизайнер створюе картинку на планшеті"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/img-1.jpg" alt="Чоловік з бородою та в окулярах" width="270" />
-            <h3 class="title-foto">Ігор Дем'яненко</h3>
-            <p lang="en" class="text-foto">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-2.jpg"
-              alt="Дівчина з білим волоссям та в окулярах"
-              width="270"
-            />
-            <h3 class="title-foto">Ольга Рєпіна</h3>
-            <p lang="en" class="text-foto">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/img-3.jpg" alt="Хлопець у блакитній сорочці" width="270" />
-            <h3 class="title-foto">Микола Тарасов</h3>
-            <p lang="en" class="text-foto">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img-4.jpg" alt="Чоловік у чорній футболці та окулярах" width="270" />
-            <h3 class="title-foto">Михайло Єрмаков</h3>
-            <p lang="en" class="text-foto">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section foto">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul>
+            <li>
+              <img src="./images/img-1.jpg" alt="Чоловік з бородою та в окулярах" width="270" />
+              <h3 class="title-foto">Ігор Дем'яненко</h3>
+              <p lang="en" class="text-foto">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./images/img-2.jpg"
+                alt="Дівчина з білим волоссям та в окулярах"
+                width="270"
+              />
+              <h3 class="title-foto">Ольга Рєпіна</h3>
+              <p lang="en" class="text-foto">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./images/img-3.jpg" alt="Хлопець у блакитній сорочці" width="270" />
+              <h3 class="title-foto">Микола Тарасов</h3>
+              <p lang="en" class="text-foto">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/img-4.jpg"
+                alt="Чоловік у чорній футболці та окулярах"
+                width="270"
+              />
+              <h3 class="title-foto">Михайло Єрмаков</h3>
+              <p lang="en" class="text-foto">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="fooret">
-      <a href="./index.html" class="logo"
-        ><span class="accent">Web</span><span class="accent-studio">Studio</span></a
-      >
-      <address>
-        <ul class="footer-list">
-          <li><a href="" class="link adress">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          ><span class="accent">Web</span><span class="accent-studio">Studio</span></a
+        >
+        <address>
+          <ul class="footer-list">
+            <li><a href="" class="link adress">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
