@@ -214,6 +214,16 @@ ul {
 .feature-list .item + .item {
     margin-left: 30px;
 }
+/* Наша команда */
+.work-team {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+}
+
+.team .item+.item {
+    margin-left: 30px;
+}
 
 .section-title {
     color: var(--title-text-color);
@@ -338,22 +348,12 @@ ul {
     margin-bottom: 50px;
 }
 
-.work-button .item {
+.work-button .work-item {
     margin-right: 8px;
 }
 
 .work-button:last-child {
     margin-right: 0;
-}
-
-.team {
-    display: flex;
-    text-align: center;
-    padding-left: 0;
-}
-
-.team .item + .item {
-    margin-left: 30px;
 }
 
 /* Кнопки */
@@ -377,7 +377,7 @@ ul {
     text-decoration: none;
 }
 
-.button-filter.primary {
+.filter.primary {
     display: inline-block;
     border: 0px;
     border-radius: 4px;
@@ -396,7 +396,7 @@ ul {
 }
 
 
-.button-filter {
+.filter {
     display: inline-block;
     border: 0px;
     border-radius: 4px;
@@ -412,11 +412,10 @@ ul {
     font-family: inherit;
     cursor: pointer;
     text-decoration: none;
-   
 }
 
-.button-filter:hover, 
-.button-filter:focus {
+.filter:hover, 
+.filter:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
