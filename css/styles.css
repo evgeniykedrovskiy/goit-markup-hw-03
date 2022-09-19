@@ -184,6 +184,7 @@ ul {
 
 .hero-title {
     color: var(--primary-white-color);
+    max-width: 696px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -192,6 +193,7 @@ ul {
     text-transform: uppercase;
 
     padding-top: 106px;
+    margin: 0 auto;
    }
 
 /* Section */
