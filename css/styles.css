@@ -221,7 +221,20 @@ ul {
     padding-left: 0;
 }
 
-.team .item+.item {
+
+.description-foto {
+    display: block;
+    width: 270px;
+    height: 108px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: none;
+    background: var(--primary-white-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.work-team .item+.item {
     margin-left: 30px;
 }
 
@@ -262,7 +275,6 @@ ul {
     line-height: 1.19;
 
     margin-bottom: 10px;
-    margin-top: 30px;
 }
 
 .text-foto {
@@ -270,8 +282,6 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-
-    padding-bottom: 30px;
 }
 
 /* Флекс Чем занимаемя */
@@ -291,18 +301,21 @@ ul {
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
-    
+    padding-left: 0;   
+}
+
+.description {
+    display: block;
+    width: 370px;
+    height: 110px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding: 20px 24px;
 }
 
 .work-list .item {
     margin-right: 30px;
     margin-bottom: 30px;
-}
-
-.item.card {
-    border-bottom: 1px solid #EEEEEE;
-    
 }
 
 .work-list .item:nth-last-child(-n +3) {
@@ -320,10 +333,6 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-
-    margin-bottom: 4px;
-    margin-top: 20px;
-    padding-left: 24px;
 }
 
 .work-list .work-text {
@@ -331,9 +340,6 @@ ul {
     font-size: 16px;
     line-height: 1.88px;
     color: var(--primary-text-color);
-
-    padding-bottom: 20px;
-    padding-left: 24px;
 }
 
 .work-list .link {
